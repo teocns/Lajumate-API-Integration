@@ -14,6 +14,14 @@
 		29A3B7D823F31C9C0002C636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A3B7D623F31C9C0002C636 /* LaunchScreen.storyboard */; };
 		29A3B7E323F31C9C0002C636 /* Lajumate_API_IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3B7E223F31C9C0002C636 /* Lajumate_API_IntegrationTests.swift */; };
 		29A3B7EE23F31C9C0002C636 /* Lajumate_API_IntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3B7ED23F31C9C0002C636 /* Lajumate_API_IntegrationUITests.swift */; };
+		29A3B7FE23F3252A0002C636 /* ApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3B7FD23F3252A0002C636 /* ApiObject.swift */; };
+		29A3B80623F40CB60002C636 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3B80523F40CB60002C636 /* ConversationCell.swift */; };
+		29A3B80923F40F220002C636 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3B80823F40F220002C636 /* Conversation.swift */; };
+		29A3B80D23F4658A0002C636 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3B80C23F4658A0002C636 /* ChatViewController.swift */; };
+		29A3B80F23F474E60002C636 /* ConversationDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3B80E23F474E60002C636 /* ConversationDetailed.swift */; };
+		29A3B81123F4804E0002C636 /* ConversationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3B81023F4804E0002C636 /* ConversationUser.swift */; };
+		29E3802523F4A7B7004E8FF0 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3802423F4A7B7004E8FF0 /* MessageCell.swift */; };
+		29E3802723F5472B004E8FF0 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3802623F5472B004E8FF0 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		29A3B7E923F31C9C0002C636 /* Lajumate API IntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lajumate API IntegrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A3B7ED23F31C9C0002C636 /* Lajumate_API_IntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lajumate_API_IntegrationUITests.swift; sourceTree = "<group>"; };
 		29A3B7EF23F31C9C0002C636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A3B7FD23F3252A0002C636 /* ApiObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiObject.swift; sourceTree = "<group>"; };
+		29A3B80523F40CB60002C636 /* ConversationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		29A3B80823F40F220002C636 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		29A3B80C23F4658A0002C636 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		29A3B80E23F474E60002C636 /* ConversationDetailed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationDetailed.swift; sourceTree = "<group>"; };
+		29A3B81023F4804E0002C636 /* ConversationUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationUser.swift; sourceTree = "<group>"; };
+		29E3802423F4A7B7004E8FF0 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		29E3802623F5472B004E8FF0 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +113,16 @@
 		29A3B7CC23F31C9C0002C636 /* Lajumate API Integration */ = {
 			isa = PBXGroup;
 			children = (
+				29A3B80723F40F150002C636 /* Classes */,
+				29A3B80223F409DF0002C636 /* UIClasses */,
 				29A3B7CD23F31C9C0002C636 /* AppDelegate.swift */,
 				29A3B7CF23F31C9C0002C636 /* ViewController.swift */,
+				29A3B80C23F4658A0002C636 /* ChatViewController.swift */,
 				29A3B7D123F31C9C0002C636 /* Main.storyboard */,
 				29A3B7D423F31C9C0002C636 /* Assets.xcassets */,
 				29A3B7D623F31C9C0002C636 /* LaunchScreen.storyboard */,
 				29A3B7D923F31C9C0002C636 /* Info.plist */,
+				29A3B7FD23F3252A0002C636 /* ApiObject.swift */,
 			);
 			path = "Lajumate API Integration";
 			sourceTree = "<group>";
@@ -123,6 +143,26 @@
 				29A3B7EF23F31C9C0002C636 /* Info.plist */,
 			);
 			path = "Lajumate API IntegrationUITests";
+			sourceTree = "<group>";
+		};
+		29A3B80223F409DF0002C636 /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				29A3B80523F40CB60002C636 /* ConversationCell.swift */,
+				29E3802423F4A7B7004E8FF0 /* MessageCell.swift */,
+				29E3802623F5472B004E8FF0 /* UIColor.swift */,
+			);
+			name = UIClasses;
+			sourceTree = "<group>";
+		};
+		29A3B80723F40F150002C636 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29A3B80823F40F220002C636 /* Conversation.swift */,
+				29A3B80E23F474E60002C636 /* ConversationDetailed.swift */,
+				29A3B81023F4804E0002C636 /* ConversationUser.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +297,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				29A3B7D023F31C9C0002C636 /* ViewController.swift in Sources */,
+				29A3B80623F40CB60002C636 /* ConversationCell.swift in Sources */,
+				29A3B80F23F474E60002C636 /* ConversationDetailed.swift in Sources */,
+				29A3B80923F40F220002C636 /* Conversation.swift in Sources */,
+				29A3B81123F4804E0002C636 /* ConversationUser.swift in Sources */,
 				29A3B7CE23F31C9C0002C636 /* AppDelegate.swift in Sources */,
+				29A3B80D23F4658A0002C636 /* ChatViewController.swift in Sources */,
+				29E3802523F4A7B7004E8FF0 /* MessageCell.swift in Sources */,
+				29A3B7FE23F3252A0002C636 /* ApiObject.swift in Sources */,
+				29E3802723F5472B004E8FF0 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +532,7 @@
 				29A3B7F423F31C9C0002C636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29A3B7F523F31C9C0002C636 /* Build configuration list for PBXNativeTarget "Lajumate API IntegrationTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +541,7 @@
 				29A3B7F723F31C9C0002C636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29A3B7F823F31C9C0002C636 /* Build configuration list for PBXNativeTarget "Lajumate API IntegrationUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +550,7 @@
 				29A3B7FA23F31C9C0002C636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
